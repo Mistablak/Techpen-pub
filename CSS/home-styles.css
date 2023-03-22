@@ -1,0 +1,848 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(243, 233, 240);
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    position: relative;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*header*/
+.header {
+    background: rgb(7, 116, 83);
+    width: 100%;
+    clear: both;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+#iLogo {
+    margin-top: 0;
+    font-size: 50px;
+    font-weight: 400;
+    color: white; 
+    float: left;  
+    background-color: rgb(7, 116, 83);
+}
+
+#nav-bar {
+    float: right;
+    background-color: rgb(7, 116, 83);
+}
+
+#nav-bar a {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(7, 116, 83);
+ }
+
+#nav-bar ul, #nav-bar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding:10px;
+    font-size:20px;
+    background-color: rgb(7, 116, 83);
+}
+
+#nav-bar ul li a:hover {
+    color: rgb(7, 116, 83);
+    background-color: white;
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.header .menu {
+    display: none;
+}
+
+/*header*/
+
+/*home*/
+.home {
+    /*background-image: url("../Images/b-image.jpg");*/
+    background: rgb(7, 116, 83);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    color: White;
+    font-size: 25px;
+    margin: auto;
+    width: 100%;
+    height: 100%vh;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+.home h2 {
+    background: none;
+    line-height: 50px;
+    padding: 40px 20px 0 20px;
+}
+
+.home p {
+    background: none;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 30px;
+}
+
+#call {
+    margin: auto;
+    height: 70px;
+    width: 30%;
+    color: rgb(7, 116, 83);
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;   
+    border-radius: 10px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 8px;
+    padding-top: 5px;
+}
+
+#call:hover {
+    color: rgb(7, 116, 83);
+    background-color: orange; 
+    display: block;
+    border: 3px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#call a {
+    text-decoration: none;
+    background: none;
+    color: rgb(7, 116, 83);
+}
+/*home*/
+
+/*about*/
+#about {
+    margin-top: 50px;
+    box-shadow: 10px 10px white;
+    scroll-margin-top: 80px;
+}
+
+#about h3 {
+    font-size: 30px;
+    text-align: center;  
+    color: rgb(7, 116, 83);
+}
+
+#about p {
+    text-align: justify;
+    padding: 8px 30px 5px 30px;
+    line-height: 30px;
+    text-align: center;
+}
+/*about*/
+
+/*Services*/
+#services {
+    margin-top: 100px;
+    scroll-margin-top: 100px;
+}
+
+#services h2 {
+    text-align: center;
+    color: rgb(7, 116, 83);
+    font-size: 30px;
+    font-weight: 50px;
+}
+
+.service-text {
+    text-align: center;
+    padding: 8px 30px 5px 30px;
+    line-height: 30px;
+}
+
+.packages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: rgb(7, 116, 83);
+    margin-top: 50px;
+}
+
+.packages p {
+    background: none;
+}
+
+.packages a {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(7, 116, 83);
+    border-radius: 20px;
+    width: 33%;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;  
+    line-height: 30px; 
+    text-decoration: none;
+}
+
+.package-box {
+    width: 100%;
+    height: fit-content;
+    background: none;
+}
+
+.packages a:hover, .package-box p:hover, #silver-package:hover, #premium-package:hover, #gold-package:hover {
+    background-color: black;
+    color: white;
+    }
+
+
+.pricing {
+    display: inline-block;
+    margin-top: 10px;
+    border: 1px solid rgb(7, 116, 83);
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(7, 116, 83);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+#premium-package h3 {
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 25px;
+    background-color: wheat;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#premium-package p {
+    padding: 20px 10px;
+}
+
+#silver-package h3 {
+    border: 1px solid silver;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 30px;
+    background-color: silver;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#silver-package p {
+    padding: 10px;
+}
+
+#gold-package h3 {
+    border: 1px solid silver;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 30px;
+    background-color: gold;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#gold-package p {
+    padding: 10px;
+}
+/*Services*/
+
+/*Why work with us*/
+.comp-strengths {
+    margin-top: 50px;
+}
+
+.comp-strengths h2 {
+    text-align: center;
+    color: rgb(7, 116, 83);
+    font-size: 30px;
+    font-weight: 50px;
+}
+
+.qualities {
+    display: flex;
+    flex-direction: row;
+}
+
+.qualities h3, .qualities p {
+    background-color: white;
+}
+
+.qualities-box {
+    margin: 20px;
+    padding: 5px;
+    color: rgb(7, 116, 83);
+    background-color: white;
+    border: 2px solid rgb(7, 116, 83);
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+.qualities-box img {
+    width: 70%;
+}
+/*Why work with us*/
+
+/*Process*/
+.process {
+    margin-top: 50px;
+    background-color: rgb(7, 116, 83);
+    color: white;
+    padding: 20px;
+ }
+
+.process h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 50px;
+    background-color: rgb(7, 116, 83);
+}
+
+.process ul {
+    background-color: rgb(7, 116, 83);
+}
+
+.process ul li {
+    list-style-type: circle;
+    margin: auto;
+    width: 50%;
+    line-height: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: rgb(7, 116, 83);
+}
+
+#process-call {
+    margin: auto;
+    height: 50px;
+    width: 20%;
+    color: rgb(7, 116, 83);
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;   
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+    padding-top: 8px;
+}
+
+#process-call:hover {
+    color: rgb(7, 116, 83);
+    background-color: orange; 
+    display: block;
+    border: 1px solid rgb(7, 116, 83);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#process-call a {
+    background: none;
+    text-decoration: none;
+    color: rgb(7, 116, 83);
+}
+/*Process*/
+
+/*Trusted by*/
+/*Trusted by*/
+
+/*Testimonials*/
+.testimony h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 50px;
+    margin-top: 50px;
+    color: rgb(7, 116, 83);
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.testimonial-box {
+    color: rgb(7, 116, 83);
+    border: 1px solid rgb(7, 116, 83);
+    border-radius: 10px;
+    width: 33%;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Testimonials*/
+
+/*FAQS*/
+.faqs {
+    clear: both;
+    overflow: auto;
+    margin-top: 50px;
+}
+
+.faqs h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 50px; 
+    color: rgb(7, 116, 83);
+}
+
+.FAQ1 {
+    float: left;  
+    width: 50%;
+    padding: 0 20px 0 40px;
+}
+
+.FAQ2 {
+    float: right;
+    width: 50%;
+    padding: 0 40px 20px;
+}
+
+.faqs p {
+    padding: 10px 5px 20px 5px;
+    text-align: justify;
+}
+
+.faqs span {
+    padding-top: 15px;
+}
+
+#faq-call {
+    margin: auto;
+    height: 50px;
+    width: 20%;
+    color: rgb(7, 116, 83);
+    font-size: 25px;
+    font-weight: bold;
+    background-color: orange;   
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+    padding-top: 8px;
+}
+
+#faq-call:hover {
+    color: rgb(7, 116, 83);
+    background-color: orange; 
+    display: block;
+    border: 4px solid rgb(7, 116, 83);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#faq-call a {
+    background: none;
+    text-decoration: none;
+    color: rgb(7, 116, 83);
+}
+/*FAQS*/
+
+/*Footer*/
+.footer {
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(7, 116, 83);
+}
+
+
+.socials, #contact, #contact h2, #contact h3, #contact a, #contact p {
+    background: none;
+    color: white;
+}
+
+#contact, .socials {
+    padding: 20px;
+}
+
+/*Media Query for medium sized devices*/
+@media only screen and (max-width: 1120px) {
+    #call {
+        width: 30%;
+    }
+
+    #process-call {
+        width: 30%;
+    }
+
+    #faq-call {
+        width: 30%;
+    }
+
+    .packages a {
+        width: 33%;
+        height: 400px;
+    }
+
+    .qualities-box {
+        width: 25%;
+    }
+
+   
+}
+
+@media only screen and (max-width: 1024px) {
+   html {
+    overflow-x: hidden;
+   }
+
+    .home h2 {
+        padding: 0 2em 0 2em;
+    }
+
+    .home p {
+        font-size: 25px;
+        padding: 0 50px 0 50px;
+    }
+    
+    #call {
+        font-size: 40px;
+        padding-top: 10px;
+        width: 35%;
+    }
+
+    #about p {
+        font-size: 20px;
+    }
+
+    .service-text {
+        font-size: 20px;
+    }
+
+    .packages p {
+        font-size: large;
+        line-height: 25px;
+    }
+
+    .packages a {
+        width: 33%;
+        height: 350px;
+    }
+
+    .qualities {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+     
+    .qualities-box {
+        width: 45%;
+    }
+
+    .qualities p {
+        font-size: 20px;
+    }
+
+    .qualities h3 {
+        font-weight: bold;
+    }
+
+    .process {
+        padding: 20px;
+    }
+
+    .process ul {
+        padding: 20px 0;
+    }
+
+    #process-call {
+        padding-top: 10px;
+        width: 35%;
+    }
+
+    .faqs p {
+        font-size: 20px;
+    }
+
+    #faq-call {
+        padding-top: 10px;
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .packages a {
+        height: 450px;
+        width: 33%;
+    }
+
+    .qualities-box {
+        width: 40%;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+    #premium-package h3 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    .header .menu {
+        display: block;
+        background: black;
+        position: absolute;
+        top: 0;
+        right: 5px;
+        font-size: 50px;
+        color: white;
+    }
+
+    #nav-bar a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        background-color: white;
+        display: block;
+    }
+
+    #nav-bar ul, #nav-bar ul li {
+        display: block;
+        background-color: white;
+    }
+
+    #nav-bar {
+        position: fixed;
+        top: 3.5rem;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        color: white;
+        background-color: white;
+        transform: translateX(100%);
+    }
+
+    #nav-bar.show {
+        transform: translateX(0);
+    }    
+
+    .home h2 {
+        font-size: 40px;
+    }
+
+    .home p {
+        padding: 0 15px 0 15px;
+        font-size: 20px;
+    }
+
+    #call {
+        font-size: 30px;
+        padding-top: 20px;
+        width: 35%;
+    }
+
+    #about p {
+        font-size: 20px;
+    }
+
+    .packages {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+  
+    }
+
+    .packages a {
+        width: 75%;
+        margin-bottom: 20px;
+        height: 300px;
+    }
+
+    .packages p {
+        font-size: 25px;
+    }
+
+    .qualities {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+     
+    .qualities-box {
+        width: 40%;
+    }
+
+    #process-call {
+        font-size: 30px;
+        width: 200px;
+        padding-top: 10px;
+    }
+
+    #faq-call {
+        width: 35%;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #iLogo {
+        font-size: 20px;
+        font-weight: 200px;
+        padding: 0.5em;
+    }
+
+    .header .menu {
+        font-size: 30px;
+       
+    }
+
+    .home h2 {
+        font-size: 30px;
+        padding: 0 30px;;
+    }
+
+    .home p {
+        font-size: 20px;
+    }
+
+    #call {
+        width: 200px;
+        font-size: 30px;
+    }
+
+    .packages {
+        padding: 20px;
+    }
+
+    .packages a {
+        width: 100%;
+        height: 300px;
+    }
+
+    .packages a p {
+        font-size: 20px;
+    }
+
+    #premium-packages h3, #silver-package h3, #gold-package h3 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .qualities {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .qualities-box {
+        width: 75%;
+    }
+
+    .process ul li {
+        width: 75%;
+    }
+
+    .process ul {
+        padding: 20px 0;
+    }
+
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .testimonial-box {
+        width: 75%;
+    }
+
+    .faqs {
+        clear: none;
+        padding: 30px;
+    }
+    
+    .FAQ1 {
+        float: none;  
+    }
+    
+    .FAQ2 {
+        float: none;
+    }
+
+    #faq-call {
+        width: 40%;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #iLogo {
+        font-size: 20px;
+        font-weight: 200px;
+        padding: 0.5em;
+    }
+
+    .home h2 {
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 35px;
+    }
+
+    .home p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .packages a {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .packages a {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    #premium-package h3 {
+        font-size: 20px;
+    }
+}

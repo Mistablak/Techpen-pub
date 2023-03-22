@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+html, body {
+    background-image: url("../Images/b-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-form {
+    margin: auto;
+    margin-top: 80px;
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#learn-Login-btn, #learn-signup-btn {
+    background-color: rgb(7, 116, 83);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#email, #password {
+    height: 40px;
+    width: 90%;
+}
+
+.learn-sign-up {
+    margin: auto;
+    width: 30%;
+    height: 120px;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 50px;
+}
+
+/*media queries*/
+@media only screen and (max-width: 1100px) {
+    .login-form {
+        width: 50%;
+    }    
+    
+    #email, #password {
+        width: 80%;
+        height: 50px;
+    }
+
+    .learn-sign-up {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .login-form, .learn-sign-up {
+        width: 65%;
+    }
+
+    #email, #password {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .learn-sign-up {
+        height: 150px;
+        margin-bottom: 20px;
+    }
+}
