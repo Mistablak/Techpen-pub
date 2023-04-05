@@ -683,10 +683,10 @@ body{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-  
     }
 
     .packages a {
+        margin: auto;
         width: 75%;
         margin-bottom: 20px;
         height: 300px;

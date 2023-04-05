@@ -5,7 +5,7 @@
 }
 
 html, body {
-    background-image: url("../Images/b-image.jpg");
+    background-color: rgb(7, 116, 83);
     background-repeat: no-repeat;
     background-size: cover;
 }
