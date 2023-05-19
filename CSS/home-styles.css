@@ -377,6 +377,8 @@ body {
     font-weight: 50px;
     margin-top: 50px;
     color: rgb(7, 116, 83);
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .testimonials {
@@ -384,10 +386,6 @@ body {
     flex-direction: row;
     justify-content: space-around;
     padding: 10px;
-}
-.testimonials h2 {
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 .testimonials h3 {
