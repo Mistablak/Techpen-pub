@@ -491,7 +491,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
-    margin: 50%;
 }
 
 .socials, #contact, #contact h2, #contact h3, #contact a, #contact p {
@@ -511,7 +510,7 @@ body {
 
 .socials img {
     height: 30px;
-    width: 30px;
+    width: 28px;
     background: none;
     margin: 0 20px;
 }
