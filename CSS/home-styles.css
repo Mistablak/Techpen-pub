@@ -10,7 +10,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     width: 100%;
     position: relative;
     font-family: 'poppins', sans-serif;
@@ -842,6 +842,10 @@ body{
         height: 300px;
     }
 
+    #tb2 {
+        padding-top: 20px;        
+    }
+
     .faqs {
         clear: none;
         padding: 30px;
@@ -862,12 +866,6 @@ body{
 }
 
 @media only screen and (max-width: 480px) {
-    #iLogo {
-        font-size: 20px;
-        font-weight: 200px;
-        padding: 0.5em;
-    }
-
     .home h2 {
         font-size: 25px;
         padding: 0 20px;
