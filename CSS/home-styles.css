@@ -385,6 +385,10 @@ body{
     justify-content: space-around;
     padding: 10px;
 }
+.testimonials h2 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
 .testimonials h3 {
     margin-top: 10px;
@@ -835,6 +839,7 @@ body{
     
     .testimonial-box {
         width: 75%;
+        height: 300px;
     }
 
     .faqs {
