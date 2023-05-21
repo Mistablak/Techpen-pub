@@ -614,6 +614,10 @@ body {
         width: 35%;
     }
 
+    .testimonial-box {
+        height: 300px;
+    }
+
     .faqs p {
         font-size: 20px;
     }
@@ -639,6 +643,9 @@ body {
         width: 40%;
     }
 
+    .testimonial-box {
+        height: 320px;
+    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -652,6 +659,10 @@ body {
 
     #premium-package h3 {
         font-size: 25px;
+    }
+
+    .testimonial-box {
+        height: 370px;
     }
 }
 
@@ -761,6 +772,20 @@ body {
         padding-top: 10px;
     }
 
+    .testimonials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .testimonial-box {
+        width: 45%;
+        height: 310px;
+    }
+
+   
+
     #faq-call {
         width: 35%;
         padding-top: 10px;
@@ -837,7 +862,7 @@ body {
     
     .testimonial-box {
         width: 75%;
-        height: 300px;
+        height: 260px;
     }
 
     #tb2 {
@@ -878,16 +903,33 @@ body {
     .packages a {
         height: 300px;
     }
+
+    .testimonial-box {
+        height: 280px;
+    }
 }
 
 @media only screen and (max-width: 380px) {
     .packages a {
         height: 350px;
     }
+
+    .testimonial-box {
+        height: 320px;
+    }
 }
 
 @media only screen and (max-width: 340px) {
     #premium-package h3 {
+        font-size: 20px;
+    }
+
+    .testimonial-box {
+        height: 400px;
+    }
+
+    #faq-call {
+        width: 60%;
         font-size: 20px;
     }
 }
